@@ -1,0 +1,139 @@
+.edit-block{
+   margin-top: 100px;
+
+}
+
+.edit{
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(107, 190, 135, 0.39);
+    width: 475px;
+    height: 750px;
+}
+
+
+#avatarCircle{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 60px;
+    position: absolute;
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#green-way{
+    font-family: Galvji, Arial;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.edit-profile-title {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 600;
+  margin-left: 16px;
+  font-size: 25px;
+  color: #608366;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+[foo="input"]{
+    font-family: "Oxygen", sans-serif;
+    padding: 1px 6px 1px 11px;
+    width: 400px;
+    height: 60px;
+    margin-bottom: 30px;
+    color: rgb(168, 167, 167);
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.save-cancel{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.edit-btn {
+    font-family: "Oxygen", sans-serif;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #cdcdcd;
+}
+
+.form-group {
+  font-family: "Oxygen", sans-serif;
+  text-align: left;
+  font-weight: lighter;
+  padding-top: 15px;
+}
+
+
+.form-control {
+  color: black;
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 3px 5px 0 rgba(0,0,0,0.1);
+}
+
+.form-check.form-switch{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.uploadBtn{
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid #ced4da
+}
+
+.row{
+  height: 300px;
+}
+
+.user-photo-edit {
+  height: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+/** profile image edit */
+
+
+.upload-btn {
+  margin-left: 80px;
+  bottom: 0;
+  background-color: black;
+  display: block;
+  justify-content: center;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.profile-photo {
+  margin-left: 120px;
+  left: 0;
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  display: block;
+  padding-top: 10px;
+}
+/** end of profile image edit */

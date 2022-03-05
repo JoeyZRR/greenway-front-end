@@ -1,0 +1,378 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/** primary button styling */
+.btn-primary {
+  border-color: #292929;
+  background-color: #292929;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 10px 24px;
+  width: 200px;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-primary:hover {
+  border-color: black;
+  background-color: #007600;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/** end of primary button styling */
+
+/** search bar */
+.input-text:hover {
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.search-clear {
+  width: 200px;
+  display: grid;
+  grid-template-areas: "a a";
+  gap: 10px;
+  grid-auto-rows: 100px;
+}
+/** end of search bar */
+
+/** user profile */
+.user-profile {
+  color: black;
+  padding-left: 45px;
+  text-align: left;
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+
+.profile-edit {
+  font-size: 15px;
+  border-color: #292929;
+  background-color: #292929;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.profile-edit:hover {
+  border-color: black;
+  background-color: #007600;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.user-img{
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.user-info {
+  position: static;
+  border-radius: 15px;
+  border: 2px solid white;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 245px;
+  height: 250px;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.wishlist {
+  position: static;
+  border-radius: 15px;
+  border: 2px solid white;
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.exchange {
+  position: static;
+  border-radius: 15px;
+  border: 2px solid white;
+  padding-top: 15px;
+  padding: 20px;
+  width: 240px;
+  height: 250px;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.plant-btn {
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-color: #292929;
+  background-color: #292929;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 10px 24px;
+}
+
+.btn {
+  position: sticky;
+}
+/** end of user profile */
+
+/** advance filter button */
+.btn-advance {
+  border-color: black;
+  background-color: white;
+  margin-top: 20px;
+  width: 780px;
+  max-width: 62.5%;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  color: #608366;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-advance:hover {
+  color: white;
+  border-color: black;
+  background-color: #007600;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/** end of advance filter button */
+
+/** advance filters */
+.adv_filt_title {
+font-family: "Oxygen", sans-serif;
+color: black;
+font-weight: bolder;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+.plant-type-item {
+  color: black;
+  padding-left: 45px;
+  text-align: left;
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+/** end of advance filters*/
+
+/** nav bar styling */
+.navbar {
+  border-bottom: 100px;
+  border-bottom-color: #608366;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #608366;
+}
+
+.navbar-brand:hover {
+  color: #608366;
+
+}
+
+.navbar-brand:active {
+  color: #171717;
+}
+
+.nav-link {
+  font-size: 17px;
+  font-weight: 400;
+  margin: auto 5px;
+  color: #a9a9a9;
+}
+
+.nav-link:hover {
+  color: #608366;
+  font-weight: bold;
+}
+
+.nav-link:active {
+  color: #171717;
+  font-weight: bold;
+}
+/** end of nav bar styling */
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/** login and registration text edits */
+div.login_row {
+  display: grid;
+  align-items: left;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+div.col-md-8 {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+img.login-img {
+  width: 100%;
+  height: auto;
+}
+
+div.col-md-4 {
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  margin-right: 0px;
+}
+
+.title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  color: #608366;
+}
+
+.p1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.email {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.password {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: lighter;
+}
+/** end of login and registration text edits */
+
+/** registration page */
+div.registration_row {
+  display: grid;
+  align-items: left;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+div.col-md-8 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+img.registration-img {
+  max-width: 100%;
+  height: auto;
+}
+
+div.col-md-4 {
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  margin-right: 0px;
+}
+/** end of registration page */
+
+/** gallery grid */
+.card {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+img.card-img-top {
+  position:relative;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+}
+/** end of gallery grid */
+
+/** dawn's gallery grid */
+.card-columns {
+  column-count: 4;
+  margin: 20px;
+}
+
+.card-columns .card {
+  display: inline-block;
+  width: 100%;
+  margin: 20px;
+  margin-bottom: 15px;
+}
+
+@media (max-width:1200px){
+  .card-columns {
+    column-count: 3;
+    margin: 20px;
+  }
+}
+
+@media (max-width:1000px){
+  .card-columns {
+    column-count: 2;
+    margin: 20px;
+  }
+}
+
+@media (max-width:700px){
+  .card-columns {
+    column-count: 1;
+  }
+}
+/** end of dawn's gallery grid */
+
+
+/** bottom of page padding */
+.container {
+  display: flow-root;
+  padding-bottom: 30px;
+}
+/** end of bottom of page padding */

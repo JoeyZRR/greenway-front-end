@@ -1,0 +1,106 @@
+.plant-info{
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-plant-title{
+  font-weight: 900;
+  font-size: 45px;
+  color: #608366;
+  text-transform: uppercase;
+  display: inline-flex;
+  text-align: center;
+  margin-left: 40%;
+}
+
+.row{
+    position: relative;
+    height: auto;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.user-plnt-edit-btn {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#add-exlist{
+    display: inline;
+    float: left;
+}
+
+.plant-img{
+    margin: 30px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.description{
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    font-family: "Oxygen", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    font-weight: 300;
+    color: #333333;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.upload-edit{
+  color: white;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-color: #292929;
+  background-color: #292929;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 10px 24px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.back-button{
+  vertical-align: top;
+  display: inline-block;
+  color: white;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-color: #292929;
+  background-color: #292929;
+  border-radius: 2px;
+  padding: 10px 24px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
+  vertical-align: baseline;
+}
+
+.back-button:link{
+  color: white;
+}

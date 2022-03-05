@@ -1,0 +1,354 @@
+
+
+h4{
+    font-family: "Oxygen", sans-serif;
+    font-size: 73.33px;
+    font-weight: 400;
+    color: #434343;
+    text-align: center;
+}
+
+.search-input{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.btn-primary.search{
+    width: 180px;
+    height: 50px;
+    margin: auto;
+}
+
+.input-text{
+    font-family: "Oxygen", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+    height: 50px;
+    color: #666666;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px 16px 1px 41px;
+
+}
+
+.plant-filter{
+  text-align: center;
+  width: 780px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+   margin-bottom: 30px;
+}
+
+.btn.btn-primary.filter{
+    width: 780px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.plant-filter-hide{
+    text-align: center;
+    width: 780px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+
+.plant-type{
+    white-space: nowrap;
+
+}
+.bi.bi-flower3{
+    color: green;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.col2{
+    white-space: nowrap;
+}
+
+.bi-moisture{
+    color: #0000A3;
+    float: left;
+    margin-right: 10px;
+}
+
+.light-level{
+    padding-top: 30px;
+}
+.bi-brightness-high{
+    color: orange;
+    float: left;
+    margin-right: 10px;
+}
+
+.colms{
+    white-space: nowrap;
+}
+
+.bi-heart{
+    color: red;
+    float: left;
+    margin-right: 10px;
+}
+
+.soil-type{
+    white-space: nowrap;
+    padding-top: 30px;
+}
+
+.bi-tree-fill{
+    color: #795126;
+    float: left;
+    margin-right: 10px;
+}
+/**personal info */
+.my-profile {
+  font-family: "Oxygen", sans-serif;
+  text-align: left;
+  margin-right: 20px;
+}
+.content {
+  text-align: left;
+}
+
+/** end of personal info */
+
+.user-profile{
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 70px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-top: 5px solid #e4e6e8;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.user-img{
+    width: 20%;
+    height: 20%;
+
+}
+
+.img-upload{
+    clear: left;
+    padding-top: 10px;
+}
+
+.user-info {
+  position: relative;
+}
+
+/** wishlist */
+.wishlist {
+  position: relative;
+}
+
+.wishlist_items {
+  text-align: left;
+}
+/** end of wishlist */
+
+/** exchange list */
+
+.exchange {
+  position: relative;
+}
+/** end of exchange list */
+
+/** buttons */
+.profile-edit{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #ffffff;
+    width: 80%;
+    position: absolute;
+    bottom: 10px;
+}
+
+.profile-edit:hover {
+  border-color: black;
+  background-color: #007600;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.edit-profile-btn{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom:10px;
+  width: 80%;
+}
+/** end of buttons */
+
+/** add plant feature*/
+.add-plant-title {
+  font-family: "Oxygen", sans-serif;
+  display:  block;
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #608366;
+}
+
+
+/** end of add plant feature*/
+
+
+#profile-edit{
+    margin-top: 20px;
+    background-color: black;
+    color: #ffffff;
+    width: 120%;
+    text-align: center;
+}
+
+#profile-edit:hover{
+    color: green
+}
+
+/** text */
+
+.titles{
+    font-family: "Oxygen", sans-serif;
+    display: inline-block;
+    margin: auto;
+    font-size: 130%;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    color: #608366;
+}
+/** end of text */
+
+/** my collection */
+.plant-collection{
+    display: block;
+    margin: 30px;
+    border-top: 5px solid #e4e6e8;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.plant-collection-title {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #608366;
+}
+
+.card-block {
+  height: 300px;
+}
+/** end of my collection */
+
+.card-body, .card-title, .card-text {
+  color: black;
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  text-transform: none;
+  font-style: normal;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.plant-btn{
+  margin-left: 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  border-color: #292929;
+  background-color: #292929;
+  border: 1px solid #cdcdcd;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.plant-btn:hover {
+  border-color: black;
+  background-color: #007600;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.user-plant{
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 70px;
+  column-count: 4;
+  justify-content: space-evenly;
+}
+
+.user-plant.card {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
+
+@media (max-width:800px){
+  .user-plant {
+    column-count: 3;
+  }
+}
+
+@media (max-width:400px){
+  .user-plant {
+    column-count: 1;
+  }
+}
+
+.plant-img{
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn.btn-primary.search{
+  width: 180px;
+  height: 50px;
+}
+
+[gap="gap"]{
+    margin-bottom: 30px;
+}
+
+.plant-list{
+    list-style-type: none;
+}
+
+.card-block{
+    margin-bottom: 30px;
+}
+
+.plant-select{
+    height: 150px;
+
+}
